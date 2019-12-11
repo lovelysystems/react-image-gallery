@@ -6,7 +6,7 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 Fork from [xiaolin/react-image-gallery](https://github.com/xiaolin/react-image-gallery).
 
-## Unreleased
+## 2019-12-11 / 1.0.0
 
 ### Feature
 

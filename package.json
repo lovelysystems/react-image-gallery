@@ -1,5 +1,5 @@
 {
-  "name": "react-image-gallery",
+  "name": "@lovelysystems/react-image-gallery",
   "version": "0.9.1",
   "description": "React carousel image gallery component with thumbnail and mobile support",
   "main": "./build/image-gallery.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xiaolin/react-image-gallery.git"
+    "url": "https://github.com/lovelysystems/react-image-gallery"
   },
   "style": "styles/css/image-gallery.css",
   "keywords": [
@@ -36,11 +36,18 @@
   ],
   "author": "Xiao Lin",
   "email": "xiao@linxtion.com",
+  "contributors": [
+    {
+      "name": "Lovely Systems GmbH",
+      "email": "office@lovelysystems.com",
+      "url": "https://lovelysystems.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xiaolin/react-image-gallery/issues"
+    "url": "https://github.com/lovelysystems/react-image-gallery"
   },
-  "homepage": "https://github.com/xiaolin/react-image-gallery",
+  "homepage": "https://github.com/lovelysystems/react-image-gallery",
   "devDependencies": {
     "babel-eslint": "^10.0.2",
     "babel-plugin-transform-object-assign": "^6.8.0",
