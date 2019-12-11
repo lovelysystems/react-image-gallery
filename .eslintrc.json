@@ -1,11 +1,13 @@
 {
-    "extends": [
-        "airbnb"
-    ],
-    "parser": "babel-eslint",
-    "plugins": ["react", "jsx-a11y", "import"],
-    "env": {
-        "browser": true,
-        "node": true
-    }
+  "extends": ["airbnb", "prettier", "prettier/react"],
+  "parser": "babel-eslint",
+  "plugins": ["react", "jsx-a11y", "import", "prettier"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "react/jsx-fragments": 0,
+    "prettier/prettier": "error"
+  }
 }
