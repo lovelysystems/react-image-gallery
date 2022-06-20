@@ -1,6 +1,6 @@
 {
-  "name": "@lovelysystems/react-image-gallery",
-  "version": "1.1.0",
+  "name": "react-image-gallery",
+  "version": "1.0.3",
   "description": "React carousel image gallery component with thumbnail and mobile support",
   "main": "./build/image-gallery.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lovelysystems/react-image-gallery.git"
+    "url": "https://github.com/xiaolin/react-image-gallery.git"
   },
   "style": "styles/css/image-gallery.css",
   "keywords": [
@@ -29,9 +29,6 @@
     "gallery",
     "slider"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "author": "Xiao Lin",
   "email": "xiao@linxtion.com",
   "license": "MIT",
