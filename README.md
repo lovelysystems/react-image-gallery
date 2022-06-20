@@ -273,6 +273,11 @@ GITHUB_TOKEN=**YOUR_PAT_FROM_GITHUB_HERE**
 We are using GitHub Packages to host this repo to npm.
 [GitHub Packages Docs](https://github.com/features/packages) and [here](https://docs.github.com/en/packages/learn-github-packages/introduction-to-github-packages)
 
+- increase version in `package.json`
+- Check in all changes and commit
+- run `git tag <version>`
+- run `git push --tags`
+- run `npm run build`
 - run `npm publish`
 
 ### Docs
