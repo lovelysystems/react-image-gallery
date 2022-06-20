@@ -1,6 +1,6 @@
 {
   "name": "@lovelysystems/react-image-gallery",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React carousel image gallery component with thumbnail and mobile support",
   "main": "./build/image-gallery.js",
   "files": [
@@ -15,7 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lovelysystems/react-image-gallery"
+    "url": "https://github.com/lovelysystems/react-image-gallery.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "style": "styles/css/image-gallery.css",
   "keywords": [

@@ -6,6 +6,12 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 Fork from [xiaolin/react-image-gallery](https://github.com/xiaolin/react-image-gallery).
 
+## 2022-06-20 / 1.1.0
+
+### Feature
+
+- LS-152: Move package GitHubPackages
+
 ## 2019-12-11 / 1.0.0
 
 ### Feature

@@ -23,6 +23,12 @@ Features of `react-image-gallery`
 
 ## Getting started
 
+The following environment variables need to be set:
+
+GITHUB_TOKEN=**YOUR_PAT_FROM_GITHUB_HERE**
+
+Your PAT from GitHub should be scoped with `read: packages`
+
 React Image Gallery requires **React 16.0.0 or later.**
 
 ```bash
@@ -262,11 +268,34 @@ npm start
 
 Then open [`localhost:8001`](http://localhost:8001) in a browser.
 
-## Build the package
+## Build and publish the package
 
-```bash
-npm run build
-```
+## How to publish this package to GitHubPackages
+
+### Github Authentication Setup
+
+Github uses personal access tokens (PAT) for authentication. To generate one go to your Github token settings page. Consult the Github Docs for more information on how tokens work. Your token needs to be scoped with `write: package`
+
+The following environment variables need to be set:
+
+GITHUB_TOKEN=**YOUR_PAT_FROM_GITHUB_HERE**
+
+### Upload package
+
+We are using GitHub Packages to host this repo to npm.
+[GitHub Packages Docs](https://github.com/features/packages) and [here](https://docs.github.com/en/packages/learn-github-packages/introduction-to-github-packages)
+
+- increase version in `package.json`
+- Check in all changes and commit
+- run `git tag <version>`
+- run `git push --tags`
+- run `npm run build`
+- run `npm publish`
+
+### PROBLEMS
+
+Please note that if you encounter Error: `Error: Node Sass does not yet support your current environment: Windows 64-bit with false`, also [see here](https://stackoverflow.com/questions/37415134/error-node-sass-does-not-yet-support-your-current-environment-windows-64-bit-w)
+you can try and run `npm rebuild node-sass` to make `npm run build` work properly.
 
 ## License
 
