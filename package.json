@@ -1,6 +1,6 @@
 {
   "name": "@lovelysystems/react-image-gallery",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "React carousel image gallery component with thumbnail and mobile support",
   "main": "./build/image-gallery.js",
   "scripts": {
